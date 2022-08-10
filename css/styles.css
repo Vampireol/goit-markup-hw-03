@@ -49,7 +49,7 @@ body {
 
 /* logo, ШАПКА САЙТА */
 
-.logo-accent {
+.logo-accent-header {
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -60,12 +60,12 @@ body {
   padding-bottom: 25px;
 }
 
-.logo-accent:hover,
-.logo-accent:focus {
+.logo-accent-header:hover,
+.logo-accent-header:focus {
   color: var(--accent-color);
 }
 
-.logo-primary {
+.logo-primary-header {
   color: var(--primary-text-color);
   font-family: Raleway;
   font-weight: 700;
@@ -74,8 +74,8 @@ body {
   text-decoration: none;
 }
 
-.logo-primary:hover,
-.logo-primary:focus {
+.logo-primary-header:hover,
+.logo-primary-header:focus {
   color: var(--accent-color);
 }
 
@@ -187,6 +187,18 @@ body {
 }
 
 /* Главное меню портфолио */
+.list-button {
+  margin: 0;
+  padding: 0;
+}
+
+.section-menu .list-button {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
 
 .button-current:hover,
 .button-current:focus {
@@ -195,7 +207,14 @@ body {
 }
 
 .button-current {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+  margin-right: 8px;
+  min-width: 73px;
   color: var(--primary-text-color);
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -215,7 +234,13 @@ body {
 }
 
 .button-link {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
   color: var(--primary-text-color);
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -223,18 +248,43 @@ body {
   text-align: center;
 }
 
+.button-link {
+  margin-right: 8px;
+}
+
+.work-link {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.worklink-list {
+  list-style: none;
+  width: calc(100%-60) / 3;
+  margin-right: 30px;
+}
+
 .work-name {
+  margin: 0;
+  padding: 0;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
+  padding-top: 20px;
 }
 
 .work-category {
+  margin: 0;
+  padding: 0;
   color: var(--title-title-color);
   font-size: 16px;
   line-height: 1.87;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .menu-list {
@@ -311,11 +361,11 @@ body {
 }
 
 .list-workers {
-  background-color: var(--background-header-color);
   display: flex;
-  padding: 0;
-  margin: 0;
+  justify-content: space-between;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .workers-title {
@@ -330,7 +380,11 @@ body {
 
 .worker-pic:not(:last-child) {
   margin-right: 30px;
+}
+
+.worker-pic {
   background-color: var(--background-header-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .worker-item {
@@ -358,18 +412,34 @@ body {
   padding-bottom: 60px;
 }
 
-.logo-primary-white {
-  color: var(--primary-white-color);
+.logo-accent-footer {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
-.logo-primary-white:hover,
-.logo-primary-white:focus {
+.logo-primary-footer {
+  color: var(--primary-white-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.logo-primary-footer:hover,
+.logo-primary-footer:focus {
   color: var(--accent-color);
 }
 
 .link-map {
   color: var(--primary-white-color);
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -383,6 +453,7 @@ body {
 
 .link-connection {
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
