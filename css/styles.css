@@ -52,7 +52,7 @@ body {
 /* logo, ШАПКА САЙТА */
 
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-accent-header {
