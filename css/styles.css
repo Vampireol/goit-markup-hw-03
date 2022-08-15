@@ -51,6 +51,10 @@ body {
 
 /* logo, ШАПКА САЙТА */
 
+.page-header {
+  border: 1px solid #ececec;
+}
+
 .logo-accent-header {
   color: var(--accent-color);
   font-family: Raleway;
