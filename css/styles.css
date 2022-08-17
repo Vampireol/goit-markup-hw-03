@@ -86,6 +86,7 @@ img {
 }
 
 .logo-accent-header {
+  display: inline-block;
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -459,6 +460,7 @@ img {
 }
 
 .logo-accent-footer {
+  display: inline-block;
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -469,13 +471,13 @@ img {
 }
 
 .logo-primary-footer {
+  display: inline-block;
   color: var(--primary-white-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 .logo-primary-footer:hover,
@@ -484,8 +486,8 @@ img {
 }
 
 .link-map {
+  display: inline-block;
   color: var(--primary-white-color);
-  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -504,8 +506,8 @@ img {
 }
 
 .link-connection-mail {
+  display: inline-block;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -514,8 +516,8 @@ img {
 }
 
 .link-connection-tel {
+  display: inline-block;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
