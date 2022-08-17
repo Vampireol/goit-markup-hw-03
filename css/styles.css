@@ -74,7 +74,7 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -307,8 +307,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  margin: -15px -15px;
+}
+
+.worklink-list {
+  margin: 15px 15px;
+}
+
+.cardbox-list {
+  padding: 20px 24px;
 }
 
 .container .worklink-list {
@@ -316,22 +323,10 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 370px;
-  margin-right: 30px;
-  margin-bottom: 30px;
   border: 1px solid #eeeeee;
 }
 
-.container .worklink-list:nth-child(3n) {
-  margin-right: 0;
-}
-
-.container .worklink-list:nth-child(n + 7) {
-  margin-bottom: 0;
-}
-
 .work-name {
-  margin: 0px 0px 4px 0px;
-  padding: 20px 0px 0px 0px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -340,8 +335,6 @@ img {
 }
 
 .work-category {
-  margin: 0;
-  padding: 0px 0px 20px 0px;
   color: var(--title-title-color);
   font-size: 16px;
   line-height: 1.87;
