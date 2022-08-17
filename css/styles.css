@@ -74,7 +74,7 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -190,11 +190,22 @@ img {
 }
 
 /* HERO */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 412px;
+}
+
 .section-hero {
   background-color: var(--background-footer-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .section-hero .hero-title {
@@ -206,6 +217,7 @@ img {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  max-width: 696px;
   text-align: center;
 }
 
@@ -226,6 +238,7 @@ img {
 }
 
 /* Главное меню портфолио */
+
 .section-menu {
   padding-top: 94px;
   padding-bottom: 94px;
