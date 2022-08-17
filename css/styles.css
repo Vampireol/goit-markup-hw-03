@@ -10,6 +10,16 @@
   --background-section-color: #f5f4fa;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -39,6 +49,26 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 .container {
@@ -257,7 +287,7 @@ body {
   text-align: center;
 }
 
-.work-link {
+.work-item {
   list-style: none;
   display: inline-block;
   display: flex;
