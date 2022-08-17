@@ -490,14 +490,30 @@ img {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
-.link-connection:hover,
-.link-connection:focus {
+.link-connection-mail:hover,
+.link-connection-mail:focus {
   color: var(--accent-color);
 }
 
-.link-connection {
+.link-connection-tel:hover,
+.link-connection-tel:focus {
+  color: var(--accent-color);
+}
+
+.link-connection-mail {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  margin-bottom: 9px;
+}
+
+.link-connection-tel {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
   font-style: normal;
