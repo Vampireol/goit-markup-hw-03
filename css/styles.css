@@ -43,7 +43,7 @@ body {
   overflow: hidden;
 }
 
-/* Утилиты */
+/*----------------- Утилиты---------------- */
 
 .list {
   padding: 0;
@@ -79,7 +79,12 @@ img {
   padding-right: 15px;
 }
 
-/* logo, ШАПКА САЙТА */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*-------------- logo, ШАПКА САЙТА -------------*/
 
 .page-header {
   border-bottom: 1px solid #ececec;
@@ -116,13 +121,13 @@ img {
   color: var(--accent-color);
 }
 
-/* Main-nav */
+/* ---------Main-nav------------------ */
 .main-nav {
   display: flex;
   align-items: center;
 }
 
-/* Site-nav */
+/* ------------------Site-nav ----------------*/
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -189,11 +194,7 @@ img {
   color: var(--accent-color);
 }
 
-/* HERO */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/* -----------HERO -------------*/
 
 .section-hero .container {
   display: flex;
@@ -237,12 +238,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-/* Главное меню портфолио */
-
-.section-menu {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/* -----------Главное меню портфолио --------*/
 
 .list-button {
   margin: 0px 0px 50px 0px;
@@ -345,10 +341,6 @@ img {
 }
 
 /* Features */
-.section-features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .feature-list {
   display: flex;
@@ -382,11 +374,6 @@ img {
 
 /* Род деятельности */
 
-.section-activity {
-  padding-top: 0px;
-  padding-bottom: 94px;
-}
-
 .list-activity {
   display: flex;
   padding: 0;
@@ -410,8 +397,6 @@ img {
 /* Наши сотрудники */
 .section-workers {
   background-color: var(--background-section-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list-workers {
